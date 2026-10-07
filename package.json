@@ -1,0 +1,16 @@
+{
+  "name": "belajar-async",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts" : {
+    "start": "bun run src/restoran.ts",
+    "dev": "bun src/index.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
